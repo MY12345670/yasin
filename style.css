@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.phone-block{
+    width: 100%;
+    height: 60px;
+    background: #65256F;
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    border: 1px solid red;
+}
+.text-1, .text-3{
+    padding-left: 10px;
+    color: orange;
+}
+.text-1{
+    width: 500px;
+    padding-left: 150px;
+}
+.text-2{
+    width: 320px;
+    color: white;
+}
+.armada-block{
+    border: solid 1px red;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img-1{
+    width: 250px;
+    height: 65px;
+    background-image: url('./img/армада\ 2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.li-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+    height: 80px;
+    /* border: solid 1px blue; */
+}
+.button-1{
+    color: white;
+    background-color: #65256F;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.s1{
+padding-top: 30px;  
+padding-left: 100px;
+}
+.img2{
+    margin-top: 60px; 
+    margin-left: 100px;
+    width: 15px;
+    height:15px;
+    background-image: url('./img/Group.png');
+    background-size: cover;
+}
+
+.s2{
+    margin-top: -15px;
+    padding-left: 125px;
+    color: rgba(108, 103, 103, 0.483);
+    }
+
+    .s3{
+        margin-top: 5px;
+        padding-left: 125px;
+        color: rgba(0, 0, 0, 0.483);
+        }
+
+        .s4{
+            margin-top: 5px;
+            padding-left: 125px;
+            color: rgba(0, 0, 0, 0.483);
+            }
+
+            .img3{
+                margin-top: 60px; 
+                margin-left: 100px;
+                width: 15px;
+                height:15px;
+                background-image: url('./img/Group.png');
+                background-size: cover;
+            }
+            
+            .s5{
+                margin-top: -15px;
+                padding-left: 125px;
+                color: rgba(108, 103, 103, 0.483);
+                }
